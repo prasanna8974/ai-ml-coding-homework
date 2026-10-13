@@ -29,9 +29,6 @@ result = classifier.predict([[6]])[0]
 print("Q2 - Student Result:", "Pass" if result == 1 else "Fail")
 
 
-# Question 3: Calculate Accuracy
-actual = [1, 0, 1, 1, 0, 1]
-predicted = [1, 0, 0, 1, 0, 1]
 
 accuracy = accuracy_score(actual, predicted)
 
