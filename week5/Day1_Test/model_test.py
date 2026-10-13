@@ -30,7 +30,4 @@ print("Q2 - Student Result:", "Pass" if result == 1 else "Fail")
 
 
 
-accuracy = accuracy_score(actual, predicted)
 
-print("Q3 - Accuracy:", accuracy)
-print("Q3 - Accuracy Percentage:", accuracy * 100, "%")
